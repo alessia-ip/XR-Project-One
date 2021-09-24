@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5221581582815022186
+  m_GuidHigh: 13750187931005488040
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5158452043434648962
+      m_GuidHigh: 3739631102491975576
+    m_SerializedTextureGuid:
+      m_GuidLow: 13020347016738594222
+      m_GuidHigh: 5089004302682104395
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: pawel-czerwinski-fAd4u_HTGGY-unsplash
+    m_Texture: {fileID: 0}

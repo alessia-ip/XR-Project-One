@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &344913155
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -271,7 +271,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 364946983}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1589713a73b8e4db38ed4d9048aa5df3, type: 3}
   m_Name: 
@@ -416,7 +416,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &1050554380
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -5215,8 +5215,8 @@ GameObject:
   - component: {fileID: 1352979567}
   - component: {fileID: 1352979566}
   - component: {fileID: 1352979569}
-  - component: {fileID: 1352979568}
   - component: {fileID: 1352979570}
+  - component: {fileID: 1352979568}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -5261,10 +5261,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1352979565}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ab0e80cee9cc1d44928bfe488dd1e2d, type: 3}
+  m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PointCloudPrefab: {fileID: 5198200127277806833, guid: 8a994df0cd6064aac9092465931b42c6,
+  m_SerializedLibrary: {fileID: 11400000, guid: 56bdc27f436ce4ed7844a024e415e8b7,
+    type: 2}
+  m_MaxNumberOfMovingImages: 1
+  m_TrackedImagePrefab: {fileID: 2374831216294852218, guid: 609eda08f5eb54927b1bc3d473d1988b,
     type: 3}
 --- !u!114 &1352979569
 MonoBehaviour:
@@ -5273,14 +5276,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1352979565}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_PlanePrefab: {fileID: 3555087062508766731, guid: 064320d2f3e2940c9a043d4d3e8f2a64,
     type: 3}
-  m_DetectionMode: -1
+  m_DetectionMode: 0
 --- !u!114 &1352979570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5288,7 +5291,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1352979565}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
   m_Name: 
