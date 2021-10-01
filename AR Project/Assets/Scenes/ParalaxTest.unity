@@ -377,6 +377,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CetusCard
       objectReference: {fileID: 0}
+    - target: {fileID: 2359606821159443392, guid: 2637ec74b657948a0905ce3a6f478fe7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2359606821159443407, guid: 2637ec74b657948a0905ce3a6f478fe7,
         type: 3}
       propertyPath: m_RootOrder
@@ -434,6 +439,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2637ec74b657948a0905ce3a6f478fe7, type: 3}
+--- !u!1001 &6239194084260497702
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1025749858926233540, guid: 30856456c576744128a224a5c331b092,
+        type: 3}
+      propertyPath: m_Name
+      value: CapricornCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025749858926233547, guid: 30856456c576744128a224a5c331b092,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025749858926233547, guid: 30856456c576744128a224a5c331b092,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025749858926233547, guid: 30856456c576744128a224a5c331b092,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025749858926233547, guid: 30856456c576744128a224a5c331b092,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025749858926233547, guid: 30856456c576744128a224a5c331b092,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025749858926233547, guid: 30856456c576744128a224a5c331b092,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025749858926233547, guid: 30856456c576744128a224a5c331b092,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025749858926233547, guid: 30856456c576744128a224a5c331b092,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025749858926233547, guid: 30856456c576744128a224a5c331b092,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025749858926233547, guid: 30856456c576744128a224a5c331b092,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025749858926233547, guid: 30856456c576744128a224a5c331b092,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 30856456c576744128a224a5c331b092, type: 3}
 --- !u!1001 &8673716904261150278
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -501,5 +575,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AquariusCard
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6388958574540177324, guid: eab486583f1bd4d4681bb4eb821f8aff,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4594389397512939430, guid: eab486583f1bd4d4681bb4eb821f8aff, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: eab486583f1bd4d4681bb4eb821f8aff, type: 3}

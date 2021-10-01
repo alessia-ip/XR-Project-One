@@ -589,7 +589,7 @@ GameObject:
   - component: {fileID: 1037029498}
   m_Layer: 0
   m_Name: AR Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5613,6 +5613,7 @@ GameObject:
   - component: {fileID: 1352979569}
   - component: {fileID: 1352979570}
   - component: {fileID: 1352979568}
+  - component: {fileID: 1352979571}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -5663,7 +5664,7 @@ MonoBehaviour:
   m_SerializedLibrary: {fileID: 11400000, guid: 56bdc27f436ce4ed7844a024e415e8b7,
     type: 2}
   m_MaxNumberOfMovingImages: 1
-  m_TrackedImagePrefab: {fileID: 2374831216294852218, guid: 609eda08f5eb54927b1bc3d473d1988b,
+  m_TrackedImagePrefab: {fileID: 1025749858926233540, guid: 30856456c576744128a224a5c331b092,
     type: 3}
 --- !u!114 &1352979569
 MonoBehaviour:
@@ -5687,12 +5688,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1352979565}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_RaycastPrefab: {fileID: 0}
+--- !u!114 &1352979571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352979565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40ac0a5858cbc48209950acdab34c4e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 1211865703}
 --- !u!1 &1552544670
 GameObject:
   m_ObjectHideFlags: 0
