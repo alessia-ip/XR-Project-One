@@ -7,7 +7,9 @@ public class SwipeDetection : MonoBehaviour
 
     public Vector2 touchPos;
 
-    public float inputLength;
+    public CurrentlyActiveCardInBook _CurrentlyActiveCardInBook;
+
+    public bool swiped = false;
     
     // Update is called once per frame
     void Update()
@@ -23,25 +25,32 @@ public class SwipeDetection : MonoBehaviour
         {
             touchPos = touch.position;
         }
-        if (touch.phase == TouchPhase.Moved)
+        if (touch.phase == TouchPhase.Moved && swiped == false)
         {
             var tempX = touch.position.x;
-            if (touchPos.x - tempX > 0.5)
+            if (touchPos.x - tempX > 1)
             {
-                Debug.Log("greater");
-                Camera.main.backgroundColor = Color.green;
+                Debug.Log("left");
+                //Camera.main.backgroundColor = Color.green;
+                
+                _CurrentlyActiveCardInBook.GetNewActive(-1);
+
             }
-            if (touchPos.x - tempX < -0.5)
+            if (touchPos.x - tempX < -1)
             {
-                Debug.Log("less");
-                Camera.main.backgroundColor = Color.cyan;
+                Debug.Log("right");
+                //Camera.main.backgroundColor = Color.cyan;
+                
+                _CurrentlyActiveCardInBook.GetNewActive(1);
             }
+
+            swiped = true;
         }
 
         if (touch.phase == TouchPhase.Ended)
         {
             touchPos = new Vector2(0,0);
-            inputLength = 0;
+            swiped = false;
         }
 
     }
