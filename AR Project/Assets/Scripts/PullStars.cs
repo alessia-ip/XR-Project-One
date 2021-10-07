@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,7 +9,17 @@ public class PullStars : MonoBehaviour
 
     public float PosX;
     public float PosZ;
-    
+
+
+    public AudioSource kalimba;
+
+    public ParticleSystem particles;
+
+    private void Start()
+    {
+        particles.Stop();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -29,6 +40,8 @@ public class PullStars : MonoBehaviour
                 Debug.Log(hit.collider.gameObject.name);
                 if (hit.collider.gameObject.tag == "Star")
                 {
+                    kalimba.Play();
+                    particles.Play();
                     dragMe = hit.collider.gameObject;
                     PosX = dragMe.transform.position.x;
                     PosZ = dragMe.transform.position.z;
@@ -37,6 +50,8 @@ public class PullStars : MonoBehaviour
         } else if (touch.phase == TouchPhase.Ended)
         {
             dragMe = null;
+            particles.Stop();
+
         } else if (touch.phase == TouchPhase.Moved || touch.phase == TouchPhase.Stationary)
         {
             if (dragMe != null)
@@ -54,6 +69,8 @@ public class PullStars : MonoBehaviour
                 var NewBallPos = new Vector3(PosX, pos.y, PosZ);
 
                 dragMe.transform.position = NewBallPos;
+                
+                
             }
         }
     }

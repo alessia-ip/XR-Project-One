@@ -15,7 +15,7 @@ public class StretchRopeMesh : MonoBehaviour
         var dist = Vector3.Distance(topPos, bottomPos);
         this.transform.localScale = new Vector3(
             this.transform.localScale.x,
-            dist/2,
+            dist/2.02f,
             this.transform.localScale.z
             );
     }

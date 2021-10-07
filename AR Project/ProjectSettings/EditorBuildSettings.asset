@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/MenuScene.unity
     guid: 8c3bc8cc4a78c4be8afd0c452014b5d6
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/ARProject.unity
     guid: 2a4acddbe3f3f4ab1ac77625d1ec85e7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ParalaxTest.unity
     guid: 5b2c0103afab441e08bf2c837ae9e816
   m_configObjects:
