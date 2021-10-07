@@ -8,6 +8,7 @@ TagManager:
   - Canvas
   - Collection
   - Card
+  - Star
   layers:
   - Default
   - TransparentFX
