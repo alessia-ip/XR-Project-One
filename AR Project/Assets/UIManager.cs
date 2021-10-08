@@ -13,4 +13,5 @@ public class UIManager : MonoBehaviour
         panelUp = !panelUp;
         anim.SetBool("PanelUp", panelUp);
     }
+    
 }

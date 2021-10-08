@@ -12,7 +12,7 @@ public class visible : MonoBehaviour
    private void Update()
    {
       card = GameObject.FindWithTag("Collection");
-      Debug.Log(card);
+//      Debug.Log(card);
       if (card != null)
       {
          canvas.SetActive(true);
