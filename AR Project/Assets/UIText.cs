@@ -11,6 +11,7 @@ public class UIText : MonoBehaviour
     
     public Text cardText;
 
+    public int MAX = 3;
     
     // Start is called before the first frame update
     void Start()
@@ -24,10 +25,10 @@ public class UIText : MonoBehaviour
         UINum = UINum + dir;
         if (UINum < 0)
         {
-            UINum = 4;
-        } else if (UINum > 4)
+            UINum = MAX;
+        } else if (UINum > MAX)
         {
-            UINum = 0;
+            UINum = MAX;
         }
         UpdateUIText();
     }

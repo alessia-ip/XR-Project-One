@@ -15,6 +15,8 @@ public class PullStars : MonoBehaviour
 
     public ParticleSystem particles;
 
+    public UnlockedNewConstellation unlock;
+
     private void Start()
     {
         particles.Stop();
@@ -49,8 +51,13 @@ public class PullStars : MonoBehaviour
             }
         } else if (touch.phase == TouchPhase.Ended)
         {
+            if (dragMe == this.gameObject)
+            {
+                unlock.StarsPulled++;
+            }
             dragMe = null;
             particles.Stop();
+            
 
         } else if (touch.phase == TouchPhase.Moved || touch.phase == TouchPhase.Stationary)
         {
