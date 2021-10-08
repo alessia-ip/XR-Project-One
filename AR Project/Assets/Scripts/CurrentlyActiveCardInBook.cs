@@ -8,6 +8,8 @@ public class CurrentlyActiveCardInBook : MonoBehaviour
 
     public List<GameObject> childCards = new List<GameObject>();
 
+    public int numberOfLockedCards = 2;
+    
     // Update is called once per frame
     void Start()
     {

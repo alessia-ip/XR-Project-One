@@ -11,6 +11,7 @@ public class SwipeDetection : MonoBehaviour
 
     public bool swiped = false;
     
+    
     // Update is called once per frame
     void Update()
     {

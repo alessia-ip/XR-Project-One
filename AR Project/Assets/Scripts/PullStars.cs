@@ -38,7 +38,7 @@ public class PullStars : MonoBehaviour
             if(Physics.Raycast(ray, out hit, Mathf.Infinity))
             {
                 Debug.Log(hit.collider.gameObject.name);
-                if (hit.collider.gameObject.tag == "Star")
+                if (hit.collider.gameObject.tag == "Star" && hit.collider.gameObject == this.gameObject)
                 {
                     kalimba.Play();
                     particles.Play();
